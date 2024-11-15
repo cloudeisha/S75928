@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author user
  */
 public class L4q1 {
-     public static void main(String[] args) {
+   public static void main(String[] args) {
        Scanner input = new Scanner (System.in);
        System.out.print("Enter first integer:");
        int num1 = input.nextInt();
@@ -27,5 +27,5 @@ public class L4q1 {
        System.out.println("The square of the second integer is " + square2);
        System.out.println("The sum of both square is " + sumSquare);
        System.out.println("The difference between both square is " + diffSquare);
-    }
+    } 
 }
